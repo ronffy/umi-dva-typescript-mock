@@ -36,7 +36,7 @@ if (module.hot) {
   });
 }
 
-require('/Users/apple/Desktop/whr/web/umi/umi003/src/global.css');
+require('/Users/apple/Desktop/whr/web/umi/umi-dva-typescript-mock/src/global.css');
 // Enable service worker
 if (process.env.NODE_ENV === 'production') {
   require('./registerServiceWorker');
