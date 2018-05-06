@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "target": "es2017",
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react", 
+    "allowJs": true,
+    "baseUrl": "./src",
+    "moduleResolution": "node",
+    "paths": {
+      "dva": [
+        "../node_modules/_dva@2.2.3@dva/index"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
