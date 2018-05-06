@@ -2,7 +2,7 @@ import React from "react";
 import { connect } from "dva";
 
 @connect(({ page1 }) => ({ list: page1.list }))
-class Page1 extends React.Component {
+class Page1 extends React.Component<any> {
   handleClick = () => {
     this.props.dispatch({
       type: 'page1/fetch'

@@ -33,7 +33,7 @@ const routes = [
       {
         "path": "/page1/",
         "exact": true,
-        "component": () => React.createElement(require('/Users/apple/Desktop/whr/web/umi/umi-dva-typescript-mock/node_modules/_umi-build-dev@0.17.2@umi-build-dev/lib/Compiling.js').default, { route: '/page1/' })
+        "component": require('../page1/index.tsx').default
       },
       {
         "path": "/page1/models/page1",

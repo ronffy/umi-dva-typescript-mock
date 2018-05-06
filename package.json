@@ -8,6 +8,7 @@
   "devDependencies": {
     "dva": "^2.2.3",
     "mockjs": "^1.0.1-beta3",
+    "tslint-react": "^3.5.1",
     "umi": "^1.2.6",
     "umi-plugin-dva": "^0.6.4"
   },

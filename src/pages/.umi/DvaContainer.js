@@ -11,7 +11,7 @@ window.g_app = app;
 app.use(createLoading());
 
 app.model({ ...(require('/Users/apple/Desktop/whr/web/umi/umi-dva-typescript-mock/src/models/app.ts').default) });
-app.model({ ...(require('/Users/apple/Desktop/whr/web/umi/umi-dva-typescript-mock/src/pages/page1/models/page1.js').default) });
+app.model({ ...(require('/Users/apple/Desktop/whr/web/umi/umi-dva-typescript-mock/src/pages/page1/models/page1.ts').default) });
 
 class DvaContainer extends Component {
   render() {

@@ -1,5 +1,8 @@
+import { modelExtend } from "utils/commonModel";
+import { ReduxAction, ReduxSagaEffects } from 'interfaces/index'
 import { query } from "../services/page1";
-export default {
+
+export default modelExtend({
 
   namespace: 'page1',
 
@@ -7,13 +10,8 @@ export default {
     list: [],
   },
 
-  subscriptions: {
-    setup({ dispatch, history }) {
-    },
-  },
-
   effects: {
-    *fetch({ payload }, { call, put }) {
+    *fetch({ payload }: ReduxAction, { call, put }: ReduxSagaEffects) {
       const { data } = yield call(query);
       const { list } = data;
       yield put({ 
@@ -25,10 +23,4 @@ export default {
     },
   },
 
-  reducers: {
-    updateState(state, action) {
-      return { ...state, ...action.payload };
-    },
-  },
-
-};
+});
