@@ -1,0 +1,19 @@
+{
+  "name": "umi-dva-ts",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build"
+  },
+  "devDependencies": {
+    "dva": "^2.2.3",
+    "mockjs": "^1.0.1-beta3",
+    "umi": "^1.2.6",
+    "umi-plugin-dva": "^0.6.4"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dva-model-extend": "^0.1.2",
+    "jsonp": "^0.2.1"
+  }
+}
