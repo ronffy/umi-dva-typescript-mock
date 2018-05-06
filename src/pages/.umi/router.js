@@ -23,7 +23,7 @@ const routes = [
       {
         "path": "/",
         "exact": true,
-        "component": () => React.createElement(require('/Users/apple/Desktop/whr/web/umi/umi-dva-typescript-mock/node_modules/_umi-build-dev@0.17.2@umi-build-dev/lib/Compiling.js').default, { route: '/' })
+        "component": require('../index.tsx').default
       },
       {
         "path": "/404",
