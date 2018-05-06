@@ -1,2 +1,2 @@
-# pwa-react-redux-webpack-ts
-基于react + redux + webpack + typescrpt的PWA框架
+# umi-dva-typescript-mock
+基于umi+dva+typescript+mock的react框架
