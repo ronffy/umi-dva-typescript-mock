@@ -1,6 +1,6 @@
 
 # 基于umi+dva+typescript+mock的react框架
-[![umi](https://img.shields.io/badge/umi-^1.2.6-orange.svg?style=flat-square)](https://github.com/umijs/umi)
+[![umi](https://img.shields.io/badge/umi-^1.2.6-green.svg?style=flat-square)](https://github.com/umijs/umi)
 [![dva](https://img.shields.io/badge/dva-^2.0.4-orange.svg?style=flat-square)](https://github.com/dvajs/dva)
 [![TypeScript](https://img.shields.io/badge/TypeScript-^2.6.2-yellowgreen.svg?style=flat-square)](https://github.com/Microsoft/TypeScript)
 
@@ -8,11 +8,11 @@
 
 -   [umi](https://github.com/umijs/umi)一个开发框架，目前包含工具 + 路由，已经包含了react、redux、router，不包含数据和视图。
 -   [dva](https://github.com/dvajs/dva) 基于 [redux](https://github.com/reactjs/redux)、[redux-saga](https://github.com/redux-saga/redux-saga) 和 [react-router](https://github.com/ReactTraining/react-router) 的轻量级前端框架。
--   [typescript](https://github.com/Microsoft/TypeScript) JS的强类型版本
+-   [TypeScript](https://github.com/Microsoft/TypeScript) JS的强类型版本
 -   UI库可选[Ant Design](https://ant.design/docs/react/introduce-cn) 或 [ant-design-mobile](https://github.com/ant-design/ant-design-mobile)
 -   用[tslint](https://github.com/palantir/tslint)做代码规范
 
--   umi内置PWA功能，默认开启，无需单独配置
+-   umi内置[PWA](https://github.com/GoogleChromeLabs/sw-toolbox)功能，默认开启，无需单独配置
 
 ## 安装
 
