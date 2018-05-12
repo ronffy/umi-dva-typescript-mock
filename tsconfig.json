@@ -11,7 +11,7 @@
     "moduleResolution": "node",
     "paths": {
       "dva": [
-        "../node_modules/_dva@2.2.3@dva/index"
+        "../node_modules/dva/index"
       ]
     }
   },
