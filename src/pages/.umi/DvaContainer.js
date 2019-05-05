@@ -4,14 +4,14 @@ import createLoading from 'dva-loading';
 
 let app = dva({
   history: window.g_history,
-  ...((require('/Users/apple/Desktop/whr/web/umi/umi-dva-typescript-mock/src/dva.ts').config || (() => ({})))()),
+  ...((require('/Users/apple/Desktop/WHR/WEB/dva/umi-dva-typescript-mock/src/dva.ts').config || (() => ({})))()),
 });
 
 window.g_app = app;
 app.use(createLoading());
 
-app.model({ ...(require('/Users/apple/Desktop/whr/web/umi/umi-dva-typescript-mock/src/models/app.ts').default) });
-app.model({ ...(require('/Users/apple/Desktop/whr/web/umi/umi-dva-typescript-mock/src/pages/page1/models/index.ts').default) });
+app.model({ ...(require('/Users/apple/Desktop/WHR/WEB/dva/umi-dva-typescript-mock/src/models/app.ts').default) });
+app.model({ ...(require('/Users/apple/Desktop/WHR/WEB/dva/umi-dva-typescript-mock/src/pages/page1/models/index.ts').default) });
 
 class DvaContainer extends Component {
   render() {

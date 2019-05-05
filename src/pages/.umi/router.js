@@ -11,14 +11,15 @@ const { ConnectedRouter } = routerRedux;
 Router = ConnectedRouter;
 
 
-const routes = [
+let routes = [
   {
-    "component": require('/Users/apple/Desktop/whr/web/umi/umi-dva-typescript-mock/src/layouts/index.tsx').default,
+    "path": "/",
+    "component": require('../../layouts/index.tsx').default,
     "routes": [
       {
-        "path": "/index.html",
+        "path": "/404",
         "exact": true,
-        "component": () => React.createElement(require('/Users/apple/Desktop/whr/web/umi/umi-dva-typescript-mock/node_modules/_umi-build-dev@0.17.2@umi-build-dev/lib/Compiling.js').default, { route: '/index.html' })
+        "component": require('../404.tsx').default
       },
       {
         "path": "/",
@@ -26,18 +27,17 @@ const routes = [
         "component": require('../index.tsx').default
       },
       {
-        "path": "/404",
+        "path": "/page1",
         "exact": true,
-        "component": () => React.createElement(require('/Users/apple/Desktop/whr/web/umi/umi-dva-typescript-mock/node_modules/_umi-build-dev@0.17.2@umi-build-dev/lib/Compiling.js').default, { route: '/404' })
+        "component": require('../page1/index.tsx').default
       },
       {
-        "path": "/page1/",
-        "exact": true,
-        "component": () => React.createElement(require('/Users/apple/Desktop/whr/web/umi/umi-dva-typescript-mock/node_modules/_umi-build-dev@0.17.2@umi-build-dev/lib/Compiling.js').default, { route: '/page1/' })
+        "component": () => React.createElement(require('/Users/apple/Desktop/WHR/WEB/dva/umi-dva-typescript-mock/node_modules/umi-build-dev/lib/plugins/404/NotFound.js').default, { pagesPath: 'src/pages', routes: '[{"path":"/","component":"./src/layouts/index.tsx","routes":[{"path":"/404","exact":true,"component":"./src/pages/404.tsx"},{"path":"/","exact":true,"component":"./src/pages/index.tsx"},{"path":"/page1","exact":true,"component":"./src/pages/page1/index.tsx"},{"path":"/page1/models","exact":true,"component":"./src/pages/page1/models/index.ts"},{"path":"/page1/services","exact":true,"component":"./src/pages/page1/services/index.js"}]}]' })
       }
     ]
   }
 ];
+
 
 export default function() {
   return (

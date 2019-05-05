@@ -1,4 +1,4 @@
-import { ReduxAction, DvaModelReducers } from 'interfaces/index'
+import { ReduxAction, DvaModelReducers } from '../interfaces/index'
 import _modelExtend from 'dva-model-extend'
 
 interface CommonModel {

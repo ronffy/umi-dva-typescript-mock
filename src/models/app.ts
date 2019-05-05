@@ -1,6 +1,6 @@
-import { queryMenu } from "services/app";
-import { ReduxAction, ReduxSagaEffects } from 'interfaces/index'
-import { modelExtend } from "utils/commonModel";
+import { queryMenu } from "../services/app";
+import { ReduxAction, ReduxSagaEffects } from '../interfaces/index'
+import { modelExtend } from "../utils/commonModel";
 
 export default modelExtend({
 

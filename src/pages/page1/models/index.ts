@@ -1,5 +1,5 @@
-import { modelExtend } from "utils/commonModel";
-import { ReduxAction, ReduxSagaEffects } from 'interfaces/index'
+import { modelExtend } from "../../../utils/commonModel";
+import { ReduxAction, ReduxSagaEffects } from '../../../interfaces/index'
 import { query } from "../services";
 
 export default modelExtend({
